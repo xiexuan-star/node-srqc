@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp configure && node-gyp build",
+    "run:demo": "node index.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
